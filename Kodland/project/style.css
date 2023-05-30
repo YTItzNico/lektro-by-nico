@@ -1,0 +1,92 @@
+body{
+    background-color: #1E1E1E;
+}
+nav{
+    background-color: #4F9FB0;
+    position: fixed;
+    width: 1440px;
+    height: 121px;
+    left: 0px;
+    top: 0px;
+}
+nav img{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 91px;
+    top: 13px;
+}
+nav h3{
+    position: absolute;
+    width: 151px;
+    height: 42px;
+    left: 1100px;
+    top: 3px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+main{
+    position: absolute;
+    width: 670px;
+    height: 450px;
+    left: 91px;
+    top: 200px;
+    
+    background: rgba(97, 94, 255, 0.2);
+    border-radius: 18px;
+
+}
+.text{
+    color: white;
+    position: absolute;
+    width: 642px;
+    height: 133px;
+    left: 50px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+footer img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 850px;
+    top: 300px;
+
+    background: url(L (1).png);
+    opacity: 0.8;
+}
+main button{
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    left: 100px;
+    top: 350px;
+
+    background: #EE3C46;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+    transform: translateY(-10px);
+}
+.btn{
+    transition: all 0.2s ease-out;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
